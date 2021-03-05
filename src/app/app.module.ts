@@ -9,9 +9,10 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './login/login.component';
+import { MissionComponent } from './mission/mission.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { BusbookComponent } from './busbook/busbook.component';
-import { MedicalComponent } from './medical/medical.component'
+import { MedicalComponent } from './medical/medical.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { MedicalComponent } from './medical/medical.component'
     HeaderComponent,
     FooterComponent,
     HomeComponent,
+    MissionComponent,
     ContactComponent,
     LoginComponent,
     BusbookComponent,

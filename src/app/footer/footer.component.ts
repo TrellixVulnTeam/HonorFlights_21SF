@@ -3,10 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-footer',
   template: `
-    <footer class="footer">
-      <div class="cointainer content has-text-centered">
+    <footer class="footer has-background-black padding-bottom:100%">
+      <div class="content has-text-centered has-text-white">
         <p>
-          Made By dotQuiet
+          Made By dotQuiet Team
         </p>
       </div>
     </footer>

@@ -22,6 +22,12 @@ import { Component, OnInit } from '@angular/core';
             Home
           </a>
 
+          <div class="navbar-menu" id="navMenu">
+        <div class="navbar-start">
+          <a class="navbar-item" routerLink="/mission">
+            Mission
+          </a>
+
           <a class="navbar-item" routerLink="/contact">
             Contact
           </a>
@@ -45,11 +51,13 @@ import { Component, OnInit } from '@angular/core';
           
 
           <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">
+              <a class="navbar-link" routerLink="/medical"> 
                 Medical
               </a>
           </div>
-        </div> 
+        </div>
+      </div>
+    </div>
 </div>
         <div class="navbar-end">
           <div class="navbar-item">
