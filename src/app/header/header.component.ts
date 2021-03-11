@@ -28,10 +28,6 @@ import { Component, OnInit } from '@angular/core';
             Mission
           </a>
 
-          <a class="navbar-item" routerLink="/contact">
-            Contact
-          </a>
-
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">
               Update
@@ -48,14 +44,16 @@ import { Component, OnInit } from '@angular/core';
                 Veteran Information
               </a>
             </div>
-          
-
-          <div class="navbar-item has-dropdown is-hoverable">
+        </div>
+        <div class="navbar-item has-dropdown">
               <a class="navbar-link" routerLink="/medical"> 
                 Medical
               </a>
           </div>
-        </div>
+
+          <a class="navbar-item" routerLink="/contact">
+            Contact
+          </a>
       </div>
     </div>
 </div>
@@ -77,9 +75,7 @@ import { Component, OnInit } from '@angular/core';
   styles: [`
     .navbar-item img{
       max-height: 3.2rem;
-    }
-
-
+    ]
 
   `]
 })

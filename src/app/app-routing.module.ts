@@ -18,11 +18,6 @@ const routes: Routes = [
   },
 
   {
-    path: 'contact',
-    component: ContactComponent
-  },
-
-  {
     path: 'busbook',
     component: BusbookComponent
   },
@@ -30,6 +25,11 @@ const routes: Routes = [
   {
     path: 'medical',
     component: MedicalComponent
+  },
+
+  {
+    path: 'contact',
+    component: ContactComponent
   }
 
 ];
