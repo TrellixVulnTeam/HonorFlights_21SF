@@ -22,10 +22,12 @@ import { Component, OnInit } from '@angular/core';
             Home
           </a>
 
-          <div class="navbar-menu" id="navMenu">
-        <div class="navbar-start">
           <a class="navbar-item" routerLink="/mission">
             Mission
+          </a>
+
+          <a class="navbar-item" routerLink="/veterans">
+            Veterans
           </a>
 
           <div class="navbar-item has-dropdown is-hoverable">
@@ -44,8 +46,8 @@ import { Component, OnInit } from '@angular/core';
                 Veteran Information
               </a>
             </div>
-        </div>
-        <div class="navbar-item has-dropdown">
+          </div>
+          <div class="navbar-item has-dropdown">
               <a class="navbar-link" routerLink="/medical"> 
                 Medical
               </a>
@@ -54,9 +56,8 @@ import { Component, OnInit } from '@angular/core';
           <a class="navbar-item" routerLink="/contact">
             Contact
           </a>
+        </div>
       </div>
-    </div>
-</div>
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="buttons">
@@ -66,7 +67,6 @@ import { Component, OnInit } from '@angular/core';
             </div>
           </div>
         </div>
-      </div>
     </nav>
 
     <!--- Menu --->

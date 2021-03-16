@@ -24,7 +24,7 @@ import { MedicalComponent } from './medical/medical.component';
     ContactComponent,
     LoginComponent,
     BusbookComponent,
-    MedicalComponent
+    MedicalComponent,
   ],
   imports: [
     BrowserModule,

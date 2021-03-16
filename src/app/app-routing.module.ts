@@ -7,9 +7,10 @@ import { MedicalComponent } from './medical/medical.component';
 import { MissionComponent } from './mission/mission.component';
 
 const routes: Routes = [
+  
   {
-    path: '',
-    component: HomeComponent
+    path: 'veterans',
+    loadChildren: () => import('./veterans/veterans.module').then(m => m.VeteransModule)
   },
 
   {
@@ -30,6 +31,12 @@ const routes: Routes = [
   {
     path: 'contact',
     component: ContactComponent
+  },
+
+  {
+    path: '',
+    component: HomeComponent,
+    pathMatch: 'full'
   }
 
 ];
