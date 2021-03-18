@@ -81,6 +81,9 @@ import { Component, OnInit } from '@angular/core';
                 Silver Team
               </a>
               <div class="navbar-dropdown">
+                <a href='#' id="silver-team" class="navbar-item">
+                  Chris, John <a href="/Vet-med/chris-john">Medical Information </a><a> Incident Report</a>
+                </a>
               </div>
             </div>
           </div>
@@ -89,170 +92,7 @@ import { Component, OnInit } from '@angular/core';
     </div>
     <div class="containter">
     </div>
-   <!-- <section class="hero has-background-link-dark is-bold">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
-            Veteran Medical
-          </h1>
-        </div>
-      </div>
-    </section>
-    <div class="container">
-      <div onclick="javascript:document.querySelector('.dropdown').classList.toggle('is-active')" 
-          onblur="javascript:document.querySelector('.dropdown').classList.toggle('is-active')" 
-            class="dropdown">
-        <div class="dropdown-trigger">
-          <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
-            <span>Click me</span>
-            <span class="icon is-small">
-              <i class="fas fa-angle-down" aria-hidden="true"></i>
-            </span>
-          </button>
-        </div>
-        <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-          <div class="dropdown-content">
-          <a href="#" class="dropdown-item">
-            Grid
-          </a>
-          </div>
-        </div>
-      </div>
-      <div  onclick="javascript:document.querySelector('.dropdown').classList.toggle('is-active')" 
-            onblur="javascript:document.querySelector('.dropdown').classList.toggle('is-active')" 
-            class="dropdown">
-        <div class="dropdown-trigger">
-          <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
-            <span>Click me</span>
-            <span class="icon is-small">
-              <i class="fas fa-angle-down" aria-hidden="true"></i>
-            </span>
-          </button>
-        </div>
-        <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-          <div class="dropdown-content">
-          <a href="#" class="dropdown-item">
-            Grid
-          </a>
-          </div>
-        </div>
-      </div>
-      <div  onclick="javascript:document.querySelector('.dropdown').classList.toggle('is-active')" 
-            onblur="javascript:document.querySelector('.dropdown').classList.toggle('is-active')" 
-            class="dropdown">
-        <div class="dropdown-trigger">
-          <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
-            <span>Click me</span>
-            <span class="icon is-small">
-              <i class="fas fa-angle-down" aria-hidden="true"></i>
-            </span>
-          </button>
-        </div>
-        <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-          <div class="dropdown-content">
-          <a href="#" class="dropdown-item">
-            Grid
-          </a>
-          </div>
-        </div>
-      </div>
-      <div  onclick="javascript:document.querySelector('.dropdown').classList.toggle('is-active')" 
-            onblur="javascript:document.querySelector('.dropdown').classList.toggle('is-active')" 
-            class="dropdown">
-        <div class="dropdown-trigger">
-          <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
-            <span>Click me</span>
-            <span class="icon is-small">
-              <i class="fas fa-angle-down" aria-hidden="true"></i>
-            </span>
-          </button>
-        </div>
-        <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-          <div class="dropdown-content">
-          <a href="#" class="dropdown-item">
-            Grid
-          </a>
-          </div>
-        </div>
-      </div>
-      <div  onclick="javascript:document.querySelector('.dropdown').classList.toggle('is-active')" 
-            onblur="javascript:document.querySelector('.dropdown').classList.toggle('is-active')" 
-            class="dropdown">
-        <div class="dropdown-trigger">
-          <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
-            <span>Click me</span>
-            <span class="icon is-small">
-              <i class="fas fa-angle-down" aria-hidden="true"></i>
-            </span>
-          </button>
-        </div>
-        <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-          <div class="dropdown-content">
-          <a href="#" class="dropdown-item">
-            Grid
-          </a>
-          </div>
-        </div>
-      </div>
-      <div  onclick="javascript:document.querySelector('.dropdown').classList.toggle('is-active')" 
-            onblur="javascript:document.querySelector('.dropdown').classList.toggle('is-active')" 
-            class="dropdown">
-        <div class="dropdown-trigger">
-          <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
-            <span>Click me</span>
-            <span class="icon is-small">
-              <i class="fas fa-angle-down" aria-hidden="true"></i>
-            </span>
-          </button>
-        </div>
-        <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-          <div class="dropdown-content">
-          <a href="#" class="dropdown-item">
-            Grid
-          </a>
-          </div>
-        </div>
-      </div>
-      <div  onclick="javascript:document.querySelector('.dropdown').classList.toggle('is-active')" 
-            onblur="javascript:document.querySelector('.dropdown').classList.toggle('is-active')" 
-            class="dropdown">
-        <div class="dropdown-trigger">
-          <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
-            <span>Click me</span>
-            <span class="icon is-small">
-              <i class="fas fa-angle-down" aria-hidden="true"></i>
-            </span>
-          </button>
-        </div>
-        <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-          <div class="dropdown-content">
-          <a href="#" class="dropdown-item">
-            Grid
-          </a>
-          </div>
-        </div>
-      </div>
-      <div  onclick="javascript:document.querySelector('.dropdown').classList.toggle('is-active')" 
-            onblur="javascript:document.querySelector('.dropdown').classList.toggle('is-active')" 
-            class="dropdown">
-        <div class="dropdown-trigger">
-          <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
-            <span>Click me</span>
-            <span class="icon is-small">
-              <i class="fas fa-angle-down" aria-hidden="true"></i>
-            </span>
-          </button>
-        </div>
-        <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-          <div class="dropdown-content">
-          <a href="#" class="dropdown-item">
-            Grid
-          </a>
-          </div>
-        </div>
-      </div>
-    </div>
--->  `,
+  `,
   styles: [`
   h1 {
     color: #ffffff !important;
@@ -296,6 +136,14 @@ import { Component, OnInit } from '@angular/core';
     color: white;
   }
 
+  .navbar-dropdown {
+    padding: 0;
+  }
+
+  .navbar-menu {
+    padding: 0;
+  }
+
   `
   ]
 })
@@ -307,14 +155,3 @@ export class VetListComponent implements OnInit {
   }
 
 }
-
-
-
-
-
-//var trigger = document.querySelector(".dropdown-trigger");
-//
-//trigger?.addEventListener("click", function(event) {
-//  document.querySelector(".dropdown").classList.toggle("is-active");
-//});
-

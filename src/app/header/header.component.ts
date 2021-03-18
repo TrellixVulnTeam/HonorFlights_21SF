@@ -47,11 +47,6 @@ import { Component, OnInit } from '@angular/core';
               </a>
             </div>
           </div>
-          <div class="navbar-item has-dropdown">
-              <a class="navbar-link" routerLink="/medical"> 
-                Medical
-              </a>
-          </div>
 
           <a class="navbar-item" routerLink="/contact">
             Contact
@@ -75,7 +70,7 @@ import { Component, OnInit } from '@angular/core';
   styles: [`
     .navbar-item img{
       max-height: 3.2rem;
-    ]
+    }
 
   `]
 })
@@ -99,6 +94,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Add a click event on each of them
     $navbarBurgers.forEach( el => {
+      el.addEventListener('click', () => {
+
+        // Get the target from the "data-target" attribute
+        const target = el.dataset.target;
+        var $target = document.getElementById(target);
+        
+        $target?.classList.toggle('is-active');
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle('is-active');
+        
+
+      });
+    });
+  }
+
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  // Get all "navbar-burger" elements
+  const $drop = Array.prototype.slice.call(document.querySelectorAll('.has-dropdown'), 0);
+
+  // Check if there are any navbar burgers
+  if ($drop.length > 0) {
+
+    // Add a click event on each of them
+    $drop.forEach( el => {
       el.addEventListener('click', () => {
 
         // Get the target from the "data-target" attribute

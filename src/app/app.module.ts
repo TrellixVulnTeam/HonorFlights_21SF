@@ -12,7 +12,6 @@ import { LoginComponent } from './login/login.component';
 import { MissionComponent } from './mission/mission.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { BusbookComponent } from './busbook/busbook.component';
-import { MedicalComponent } from './medical/medical.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +23,6 @@ import { MedicalComponent } from './medical/medical.component';
     ContactComponent,
     LoginComponent,
     BusbookComponent,
-    MedicalComponent,
   ],
   imports: [
     BrowserModule,
